@@ -49,5 +49,5 @@ export const showDataOnMap = (data, casesType = 'cases') => (
 )   
 
 export const prettyPrintStat = (stat) => {
-    return stat ? `+${numeral(stat).format("0,0a")}`: "0";
+    return stat ? `+${numeral(stat).format("0,00a")}`: "0";
 }
